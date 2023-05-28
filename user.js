@@ -4,7 +4,7 @@ const id = urlParams.get('id');
 let profile = document.getElementById('profile');
 let productsGrid = document.getElementById('user-products-grid');
 
-let url = 'https://my-json-server.typicode.com/RobocodeSchool/marketplace';
+let url = 'https://my-json-server.typicode.com/jokerok2569/MarketPlace';
 
 //User details request
 let userRequest = new XMLHttpRequest();
