@@ -25,7 +25,9 @@ xhr.onload = function() {
 }
 xhr.send();
 
-
+function openCart() {
+    cartProd.classList.toggle('hide');
+}
 
 
 
@@ -102,6 +104,3 @@ xhr.send();
 //     localStorage.setItem("cart", '[]');
 // }
 
-// function openCart() {
-//     cartProd.classList.toggle('hide');
-// }
